@@ -1,0 +1,134 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+}
+
+body {
+
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.travel {
+  font-size: 5rem;
+}
+
+.travel-2 {
+  font-size: 1.5rem;
+}
+
+.about-text {
+  text-align: center;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+.view {
+  min-height: 100%;
+}
+
+.hotel-container {
+  margin: 0 auto;
+  border: 1px solid;
+  width: 60%;
+  margin-top: 5%;
+}
+
+.hotel-title {
+  padding: 2rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  font-size: 450%;
+}
+
+.hotel-description {
+  padding: 2rem;
+  font-size: 150%;
+  text-align: justify;
+}
+
+#carouselExampleIndicators{
+  padding: 2rem;
+}
+
+.hotel-features {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem
+}
+
+.inner-features-container {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.inner-features {
+  display: flex;
+}
+
+.inner-features-2 {
+  display: flex;
+  margin: 0 auto;
+}
+
+#feature-icon {
+  margin-right: 2rem;
+}
+
+.features-text {
+  font-size: 1.3rem;
+}
+
+.map-img {
+  width: 100%;
+} 
+
+.inner-features-wrapper {
+  display: flex;
+}
+
+#facebook-div {
+  margin-right: 2rem;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-pic {
+  object-fit: contain;
+}
+
+#jssor_1{
+  max-width: 100%;
+}
